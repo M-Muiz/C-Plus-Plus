@@ -55,27 +55,36 @@
 //     return 0;
 // }
 
-
 // #include <iostream>
 // using namespace std;
 
 // int main()
 // {
-    //     int num1, num2;
-    
-    //     cout << "Enter the value of num1:\n";
-    //     cin >> num1;
-    
-    //     cout << "Enter the value of num1:\n";
-    //     cin >> num2;
+//     int num1, num2;
+
+//     cout << "Enter the value of num1:\n";
+//     cin >> num1;
+
+//     cout << "Enter the value of num1:\n";
+//     cin >> num2;
 
 //     cout << "The value of num1 is : " << num1 << " The value of num2 is : " << num2;
 
 //     return 0;
 // };
 
-
-
 #include <iostream>
 using namespace std;
 
+int main()
+{
+    int num1, num2;
+
+    cout << "Enter two numbers for addition: ";
+    cin >> num1;
+    cout << "Enter number 2: ";
+    cin >> num2;
+
+    cout << "The sum of both numbers are: " << num1 + num2;
+    return 0;
+}
