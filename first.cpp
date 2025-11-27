@@ -28,29 +28,54 @@
 //         return 0;
 // }
 
+// #include <iostream>
+// using namespace std;
+
+// int main()
+// {
+//     // int a = 23;
+//     // int b = 35;
+
+//     int a = 12, b = 88; // Recommended way to create multiple variable of same type:
+
+//     bool is_true = true;
+
+//     float pi = 3.14;
+
+//     char firstletter = 'M';
+
+//     // double name = 'Moiz';
+
+//     cout << "The value of a is " << a << " and the value of b is " << b << " and the sum of both is " << a + b + is_true;
+
+//     cout << "\nThe value of pi is " << pi;
+
+//     cout << "\nThis code is created by " << firstletter;
+
+//     return 0;
+// }
+
+
+// #include <iostream>
+// using namespace std;
+
+// int main()
+// {
+    //     int num1, num2;
+    
+    //     cout << "Enter the value of num1:\n";
+    //     cin >> num1;
+    
+    //     cout << "Enter the value of num1:\n";
+    //     cin >> num2;
+
+//     cout << "The value of num1 is : " << num1 << " The value of num2 is : " << num2;
+
+//     return 0;
+// };
+
+
+
 #include <iostream>
 using namespace std;
 
-int main()
-{
-    // int a = 23;
-    // int b = 35;
-
-    int a = 12, b = 88; // Recommended way to create multiple variable of same type:
-
-    bool is_true = true;
-
-    float pi = 3.14;
-
-    char firstletter = 'M';
-
-    // double name = 'Moiz';
-
-    cout << "The value of a is " << a << " and the value of b is " << b << " and the sum of both is " << a + b + is_true;
-
-    cout << "\nThe value of pi is " << pi;
-
-    cout << "\nThis code is created by " << firstletter;
-
-    return 0;
-}
