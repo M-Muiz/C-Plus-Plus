@@ -52,11 +52,12 @@ int main()
 
     switch (age)
     {
-    case :
-        /* code */
+    case 18:
+    cout<<"Your are 18"<<endl;
         break;
-    
+    case
     default:
+    cout<<"How are you doing";
         break;
     }
 
