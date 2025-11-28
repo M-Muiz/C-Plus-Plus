@@ -2,42 +2,62 @@
 
 using namespace std;
 
+// int main()
+// {
+
+//     int num1, num2;
+//     char sign;
+
+//     cout << "Welcome To Calculator" << endl;
+
+//     cout << "Enter num1: " << endl;
+//     cin >> num1;
+
+//     cout << "Enter Sign: " << endl;
+//     cin >> sign;
+
+//     cout << "Enter num2: " << endl;
+//     cin >> num2;
+
+//     if (sign == 'x')
+//     {
+//         cout << "The multiplication of num1 and num2 is: " << num1 * num2;
+//     }
+//     else if (sign == '/')
+//     {
+//         cout << "The divison of num1 and num2 is: " << num1 / num2;
+//     }
+//     else if (sign == '+')
+//     {
+//         cout << "The addition of num1 and num2 is: " << num1 + num2;
+//     }
+//     else if (sign == '-')
+//     {
+//         cout << "The subtraction of num1 and num2 is: " << num1 - num2;
+//     }
+//     else
+//     {
+//         cout << "Something wrong with program.";
+//     }
+
+//     return 0;
+// }
+
 int main()
 {
+    int age;
 
-    int num1, num2;
-    char sign;
+    cout << "Enter your age: " << endl;
+    cin >> age;
 
-    cout << "Welcome To Calculator" << endl;
-
-    cout << "Enter num1: " << endl;
-    cin >> num1;
-
-    cout << "Enter Sign: " << endl;
-    cin >> sign;
-
-    cout << "Enter num2: " << endl;
-    cin >> num2;
-
-    if (sign == 'x')
+    switch (age)
     {
-        cout << "The multiplication of num1 and num2 is: " << num1 * num2;
-    }
-    else if (sign == '/')
-    {
-        cout << "The divison of num1 and num2 is: " << num1 / num2;
-    }
-    else if (sign == '+')
-    {
-        cout << "The addition of num1 and num2 is: " << num1 + num2;
-    }
-    else if (sign == '-')
-    {
-        cout << "The subtraction of num1 and num2 is: " << num1 - num2;
-    }
-    else
-    {
-        cout << "Something wrong with program.";
+    case :
+        /* code */
+        break;
+    
+    default:
+        break;
     }
 
     return 0;
