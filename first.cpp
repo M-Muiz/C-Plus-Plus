@@ -73,18 +73,20 @@
 //     return 0;
 // };
 
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-int main()
-{
-    int num1, num2;
+// int main()
+// {
+//     int num1, num2;
 
-    cout << "Enter two numbers for addition: ";
-    cin >> num1;
-    cout << "Enter number 2: ";
-    cin >> num2;
+//     cout << "Enter two numbers for addition: ";
+//     cin >> num1;
+//     cout << "Enter number 2: ";
+//     cin >> num2;
 
-    cout << "The sum of both numbers are: " << num1 + num2;
-    return 0;
-}
+//     cout << "The sum of both numbers are: " << num1 + num2;
+//     return 0;
+// }
+
+
