@@ -53,11 +53,14 @@ int main()
     switch (age)
     {
     case 18:
-    cout<<"Your are 18"<<endl;
+        cout << "Your are 18" << endl;
         break;
-    case
+    case 22:
+        cout << "You are 22" << endl;
+        break;
+
     default:
-    cout<<"How are you doing";
+        cout << "How are you doing";
         break;
     }
 
